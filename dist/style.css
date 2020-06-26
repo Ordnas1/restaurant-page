@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+*::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.l-header {
+    height: 100vh;
+    background-image: url("image/header-italian-food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("image/header-italian-food.jpg");
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-evenly;
+}
+
+.l-header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+}
+
+.desc {
+    text-align: center;
+}
